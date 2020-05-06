@@ -3698,10 +3698,9 @@ input, select, textarea {
 					font-size: 1em;
 				}
 
-				#headshot {
-					width: 50%;
-					height: 50%;
-					align-self: center;
+				.flex-row {
+					display: flex;
+					flex-direction: column;
 				}
 
 			}
