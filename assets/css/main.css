@@ -3033,15 +3033,15 @@ input, select, textarea {
 			@media (min-width: 320px) and (max-width: 480px) {
 
 				.mobile-center li, h2, h3, #resume-bottom {
-					display: flex;
-					flex-direction: column;
-					align-items: center;
+					display: flex !important;
+					flex-direction: column !important;
+					align-items: center !important;
 				}
 
 				.social-links .indent {
 					margin-left: 0 !important;
 				}
-				
+
 			}
 
 		.wrapper.alt {
