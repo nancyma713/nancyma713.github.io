@@ -112,6 +112,15 @@ input, select, textarea {
 			transition: none !important;
 		}
 
+	.techs-used {
+		font-style: italic;
+	}
+
+	.techs-used span {
+		color: rgb(41, 66, 150);
+		font-weight: bold;
+	}
+
 /* Type */
 
 	body, input, select, textarea {
@@ -162,7 +171,7 @@ input, select, textarea {
 		}
 
 	strong, b {
-		color: steelblue;
+		color: rgb(70, 96, 180);
 		font-weight: bold;
 	}
 
@@ -1838,6 +1847,7 @@ input, select, textarea {
 		color: black !important;
 		cursor: pointer;
 		display: inline-block;
+		font-family: 'Quattrocento Sans', sans-serif;
 		font-size: 0.6em;
 		font-weight: bold;
 		height: calc(4.75em + 2px);
@@ -1991,20 +2001,24 @@ input, select, textarea {
 		border: solid 1px rgba(255, 255, 255, 0.15);
 		background: rgba(255, 255, 255, 0.05);
 		margin: 0 0 2em 0;
+		justify-content: center;
 	}
 
 		.features section {
 			padding: 1.5em;
-			width: 20%;
+			min-width: 15%;
 			position: relative;
 		}
 
 		.features section i {
-			font-size: 60px;
+			font-size: 3em;
+			display: flex;
+			justify-content: space-around;
 		}
 
 		.features section p {
-			font-size: 15px;
+			font-size: 0.8em;
+			text-align: center;
 
 		}
 
@@ -2179,7 +2193,7 @@ input, select, textarea {
 			opacity: 0;
 		}
 
-		@media screen and (max-width: 980px) {
+		/* @media screen and (max-width: 980px) {
 
 			.features {
 				display: block;
@@ -2188,7 +2202,7 @@ input, select, textarea {
 				.features section {
 					border-top-width: 1px !important;
 					border-left-width: 0 !important;
-					width: 20%;
+					width: 20% !important;
 				}
 
 					.features section:first-child {
@@ -2201,7 +2215,7 @@ input, select, textarea {
 
 			.features section {
 				padding: 2.5em 1.5em 0.1em 5.5em ;
-				width: 20%;
+				width: 25% !important;
 			}
 
 				.features section .icon {
@@ -2209,13 +2223,13 @@ input, select, textarea {
 					top: 2em;
 				}
 
-		}
+		} */
 
-		@media screen and (max-width: 480px) {
+		/* @media screen and (max-width: 480px) {
 
 			.features section {
 				padding: 2em 1.5em 0.1em 1.5em ;
-				width: 20%;
+				width: 20% !important;
 			}
 
 				.features section .icon {
@@ -2224,7 +2238,7 @@ input, select, textarea {
 					top: 0;
 				}
 
-		}
+		} */
 
 /* Icon */
 
@@ -2371,7 +2385,7 @@ input, select, textarea {
 
 	ul {
 		list-style: disc;
-		margin: 0 0 2em 0;
+		margin: 0.2em 0 0.2em 0;
 		padding-left: 1em;
 	}
 
@@ -2552,11 +2566,22 @@ input, select, textarea {
 		cursor: default;
 		list-style: none;
 		padding-left: 0;
+		font-size: 2em;
 	}
-
+	
 		ul.icons li {
 			display: inline-block;
 			padding: 0 0.75em 0 0;
+		}
+
+		/* ul.icons a {
+			text-shadow: 1px 1px 5px;
+		} */
+
+		ul.icons a:hover {
+			color: snow;
+			transition: 0.7s;
+			/* text-shadow: 0px 0px 0px; */
 		}
 
 			ul.icons li:last-child {
@@ -2659,11 +2684,11 @@ input, select, textarea {
 		}
 
 		.split.style1 > :nth-child(2n - 1) {
-			width: calc(66.66666% - 2.5em);
+			width: calc(60% - 2.5em);
 		}
 
 		.split.style1 > :nth-child(2n) {
-			width: calc(33.33333% - 2.5em);
+			width: calc(40% - 2.5em);
 		}
 
 		@media screen and (max-width: 1680px) {
@@ -2681,11 +2706,11 @@ input, select, textarea {
 			}
 
 			.split.style1 > :nth-child(2n - 1) {
-				width: calc(66.66666% - 2em);
+				width: calc(60% - 2em);
 			}
 
 			.split.style1 > :nth-child(2n) {
-				width: calc(33.33333% - 2em);
+				width: calc(40% - 2em);
 			}
 
 		}
@@ -2955,10 +2980,18 @@ input, select, textarea {
 			width: 75em;
 		}
 
+		.footer-wrapper > .inner {
+			padding: 2em 5em 2em 5em;
+		}
+
 			@media screen and (max-width: 1680px) {
 
 				.wrapper > .inner {
 					padding: 4em 4em 2em 4em ;
+				}
+
+				.footer-wrapper > .inner {
+					padding: 1em 4em 1em 4em;
 				}
 
 			}
@@ -2977,34 +3010,38 @@ input, select, textarea {
 					padding: 3em 2em 1em 2em ;
 				}
 
+				.footer-wrapper > .inner {
+					padding: 1em 4em 1em 4em;
+				}
+
 			}
 
 		.wrapper.alt {
-			background-image: linear-gradient(to bottom, rgb(233, 237, 255), rgb(191, 202, 252), rgb(167, 183, 255), rgb(138, 158, 248),rgb(94, 122, 248), rgb(71, 105, 253));
+			background-image: linear-gradient(to bottom, rgb(233, 237, 255), rgb(191, 202, 252), rgb(167, 183, 255), rgb(138, 158, 248),rgb(94, 122, 248), rgb(87, 118, 255));
 		}
 
 		.wrapper.style1 {
-			background-image: linear-gradient(to bottom, rgb(233, 237, 255), rgb(191, 202, 252), rgb(167, 183, 255), rgb(138, 158, 248), rgb(94, 122, 248), rgb(71, 105, 253));
+			background-image: linear-gradient(to bottom, rgb(233, 237, 255), rgb(191, 202, 252), rgb(167, 183, 255), rgb(138, 158, 248), rgb(94, 122, 248), rgb(87, 118, 255));
 		}
 
 		.wrapper.style1-alt {
-			background-color: rgb(71, 105, 253);
+			background-color: rgb(87, 118, 255);
 		}
 
 		.wrapper.style2 {
-			background-image: linear-gradient(to bottom, rgb(233, 237, 255), rgb(191, 202, 252), rgb(167, 183, 255), rgb(138, 158, 248),rgb(94, 122, 248), rgb(71, 105, 253));
+			background-image: linear-gradient(to bottom, rgb(233, 237, 255), rgb(191, 202, 252), rgb(167, 183, 255), rgb(138, 158, 248),rgb(94, 122, 248), rgb(87, 118, 255));
 		}
 
 		.wrapper.style2-alt {
-			background-image: linear-gradient(to bottom, rgb(233, 237, 255), rgb(191, 202, 252), rgb(167, 183, 255), rgb(138, 158, 248),rgb(94, 122, 248), rgb(71, 105, 253));
+			background-image: linear-gradient(to bottom, rgb(233, 237, 255), rgb(191, 202, 252), rgb(167, 183, 255), rgb(138, 158, 248),rgb(118, 143, 255), rgb(87, 118, 255));
 		}
 
 		.wrapper.style3 {
-			background-image: linear-gradient(to bottom, rgb(233, 237, 255), rgb(191, 202, 252), rgb(167, 183, 255), rgb(138, 158, 248),rgb(94, 122, 248), rgb(71, 105, 253));
+			background-image: linear-gradient(to bottom, rgb(233, 237, 255), rgb(191, 202, 252), rgb(167, 183, 255), rgb(138, 158, 248),rgb(94, 122, 248), rgb(87, 118, 255));
 		}
 
 		.wrapper.style3-alt {
-			background-image: linear-gradient(to bottom, rgb(233, 237, 255), rgb(191, 202, 252), rgb(167, 183, 255), rgb(138, 158, 248),rgb(94, 122, 248), rgb(71, 105, 253));
+			background-image: linear-gradient(to bottom, rgb(233, 237, 255), rgb(191, 202, 252), rgb(167, 183, 255), rgb(138, 158, 248),rgb(94, 122, 248), rgb(87, 118, 255));
 		}
 
 		.wrapper.fullscreen {
@@ -3268,7 +3305,7 @@ input, select, textarea {
 
 	#sidebar {
 		padding: 2.5em 2.5em 0.5em 2.5em ;
-		background-image: linear-gradient(to bottom, rgb(233, 237, 255), rgb(191, 202, 252), rgb(167, 183, 255), rgb(138, 158, 248),rgb(94, 122, 248), rgb(71, 105, 253));
+		background-image: linear-gradient(to bottom, rgb(233, 237, 255), rgb(191, 202, 252), rgb(167, 183, 255), rgb(138, 158, 248),rgb(94, 122, 248), rgb(87, 118, 255));
 		cursor: default;
 		height: 100vh;
 		left: 0;
@@ -3617,7 +3654,7 @@ input, select, textarea {
 /* Intro */
 
 	#intro {
-		background-image: linear-gradient(to bottom, rgb(233, 237, 255), rgb(191, 202, 252), rgb(167, 183, 255), rgb(138, 158, 248),rgb(94, 122, 248), rgb(71, 105, 253));
+		background-image: linear-gradient(to bottom, rgb(233, 237, 255), rgb(191, 202, 252), rgb(167, 183, 255), rgb(138, 158, 248),rgb(94, 122, 248), rgb(87, 118, 255));
 	}
 
 	.flex-row {
@@ -3629,10 +3666,16 @@ input, select, textarea {
 		width: 30%;
 		height: 30%;
 		margin: 2em;
+		align-self: center;
 	}
 
 		#intro p {
-			font-size: 1.25em;
+			font-size: 1em;
+		}
+
+		#intro h1 {
+			color: rgb(70, 96, 180);
+			font-weight: bold;
 		}
 
 			@media screen and (max-width: 980px) {
@@ -3641,12 +3684,24 @@ input, select, textarea {
 					display: none;
 				}
 
+				#headshot {
+					width: 35%;
+					height: 35%;
+					align-self: center;
+			}
+
 			}
 
 			@media screen and (max-width: 736px) {
 
 				#intro p {
 					font-size: 1em;
+				}
+
+				#headshot {
+					width: 50%;
+					height: 50%;
+					align-self: center;
 				}
 
 			}
@@ -3657,4 +3712,22 @@ input, select, textarea {
 				background-attachment: scroll;
 			}
 
+			#headshot {
+				width: 25%;
+				height: 25%;
+				align-self: center;
+			}
+
 		}
+
+	#resume-bottom {
+		margin-top: 3em;
+	}
+
+	.social-links .indent {
+		margin-left: 1em;
+	}
+
+	#margin-top {
+		margin-top: 3em;
+	}
