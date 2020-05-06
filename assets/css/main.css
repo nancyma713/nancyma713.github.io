@@ -3030,6 +3030,20 @@ input, select, textarea {
 				
 			}
 
+			@media (min-width: 320px) and (max-width: 480px) {
+
+				.mobile-center li, h2, h3, #resume-bottom {
+					display: flex;
+					flex-direction: column;
+					align-items: center;
+				}
+
+				.social-links .indent {
+					margin-left: 0 !important;
+				}
+				
+			}
+
 		.wrapper.alt {
 			background-image: linear-gradient(to bottom, rgb(233, 237, 255), rgb(191, 202, 252), rgb(167, 183, 255), rgb(138, 158, 248),rgb(94, 122, 248), rgb(87, 118, 255));
 		}
