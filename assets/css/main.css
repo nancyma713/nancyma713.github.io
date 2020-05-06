@@ -3778,6 +3778,7 @@ input, select, textarea {
 
 	.header-projects {
 		min-height: 10em !important;
+		margin: 0 1em;
 	}
 
 	.header-projects h2 {
