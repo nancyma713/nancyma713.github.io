@@ -3013,7 +3013,7 @@ input, select, textarea {
 					padding: 1em 4em 1em 4em;
 				}
 
-				.mobile-center li, h2, h3, #resume-bottom {
+				.mobile-center h2, h3, #resume-bottom {
 					display: flex;
 					flex-direction: column;
 					align-items: center;
