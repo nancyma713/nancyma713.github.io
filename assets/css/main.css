@@ -2321,7 +2321,7 @@ input, select, textarea {
 
 	.image {
 		border-radius: 0.25em;
-		border: 0;
+		border: 1px solid lightgrey;
 		display: inline-block;
 		position: relative;
 	}
@@ -2434,6 +2434,11 @@ input, select, textarea {
 		margin-left: -1em;
 		padding-left: 0;
 	}
+
+		.project-buttons {
+			display: flex;
+			justify-content: center;
+		}
 
 		ul.actions li {
 			padding: 0 0 0 1em;
@@ -2761,10 +2766,11 @@ input, select, textarea {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		-moz-flex-direction: row;
-		-webkit-flex-direction: row;
-		-ms-flex-direction: row;
-		flex-direction: row;
+		-moz-flex-direction: column;
+		-webkit-flex-direction: column;
+		-ms-flex-direction: column;
+		flex-direction: column;
+		align-items: center;
 		min-height: 22.5em;
 	}
 
@@ -2778,7 +2784,9 @@ input, select, textarea {
 			border-radius: 0;
 			display: block;
 			position: relative;
-			width: 25em;
+			width: 38em;
+			height: 20em;
+			margin-top: 3em;
 		}
 
 			.spotlights > section > .image img {
@@ -2865,12 +2873,20 @@ input, select, textarea {
 		@media screen and (max-width: 980px) {
 
 			.spotlights > section {
-				display: block;
+				display: -moz-flex;
+				display: -webkit-flex;
+				display: -ms-flex;
+				display: flex;
+				-moz-flex-direction: column;
+				-webkit-flex-direction: column;
+				-ms-flex-direction: column;
+				flex-direction: column;
+				align-items: center;
 			}
 
 				.spotlights > section > .image {
-					width: 100%;
-					height: 50vh;
+					width: 38em;
+					height: 20em;
 				}
 
 				.spotlights > section > .content {
@@ -2890,8 +2906,8 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			.spotlights > section > .image {
-				height: 50vh;
-				min-height: 15em;
+				width: 30em;
+				height: 16em;
 			}
 
 			.spotlights > section > .content {
@@ -2978,6 +2994,9 @@ input, select, textarea {
 			padding: 5em 5em 3em 5em ;
 			max-width: 100%;
 			width: 75em;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
 		}
 
 		.footer-wrapper > .inner {
@@ -2992,6 +3011,12 @@ input, select, textarea {
 
 				.footer-wrapper > .inner {
 					padding: 1em 4em 1em 4em;
+				}
+
+				.mobile-center li, h2, h3, #resume-bottom {
+					display: flex;
+					flex-direction: column;
+					align-items: center;
 				}
 
 			}
@@ -3754,13 +3779,25 @@ input, select, textarea {
 		}
 
 	#resume-bottom {
-		margin-top: 3em;
+		margin: 3em 0;
 	}
 
-	.social-links .indent {
-		margin-left: 1em;
+	.center {
+		text-align: center;
 	}
 
 	#margin-top {
 		margin-top: 3em;
+	}
+
+	.header-projects {
+		min-height: 10em !important;
+	}
+
+	.header-projects h2 {
+		margin: auto;
+	}
+
+	.header-projects p {
+		margin: auto;
 	}
