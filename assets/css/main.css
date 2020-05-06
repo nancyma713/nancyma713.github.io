@@ -3765,15 +3765,15 @@ input, select, textarea {
 		}
 
 	#resume-bottom {
-		margin: 3em 0;
+		margin: 3em 0 !important;
 	}
 
 	.center {
-		text-align: center;
+		text-align: center !important;
 	}
 
 	#margin-top {
-		margin-top: 3em;
+		margin-top: 3em !important;
 	}
 
 	.header-projects {
@@ -3781,9 +3781,9 @@ input, select, textarea {
 	}
 
 	.header-projects h2 {
-		margin: auto;
+		margin: auto !important;
 	}
 
 	.header-projects p {
-		margin: auto;
+		margin: auto !important;
 	}
