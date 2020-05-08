@@ -2922,7 +2922,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 480px) {
+		@media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
 
 			.spotlights > section > .image {
 				width: 20em;
