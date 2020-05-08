@@ -2925,8 +2925,8 @@ input, select, textarea {
 		@media screen and (max-width: 480px) {
 
 			.spotlights > section > .image {
-				width: 26em;
-				height: 14em;
+				width: 20em;
+				height: 9em;
 			}
 		}
 
