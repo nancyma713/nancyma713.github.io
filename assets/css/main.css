@@ -2926,8 +2926,8 @@ input, select, textarea {
 
 			.spotlights > section > .image {
 				background-size: contain;
-				width: 20em !important;
-				height: 10em !important;
+				width: 10em !important;
+				height: 5em !important;
 			}
 		}
 
