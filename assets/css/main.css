@@ -2925,9 +2925,7 @@ input, select, textarea {
 		@media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
 
 			.spotlights > section > .image {
-				background-size: contain;
-				width: 10em !important;
-				height: 5em !important;
+				background-size: cover;
 			}
 		}
 
