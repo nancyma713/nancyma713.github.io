@@ -3071,31 +3071,31 @@ input, select, textarea {
 			}
 
 		.wrapper.alt {
-			background-image: linear-gradient(to bottom, rgb(233, 237, 255), rgb(191, 202, 252), rgb(167, 183, 255), rgb(138, 158, 248),rgb(94, 122, 248), rgb(87, 118, 255));
+			background-image: linear-gradient(to bottom, rgb(233, 237, 255), rgb(218, 228, 255), rgb(203, 219, 255), rgb(183, 205, 255),rgb(176, 199, 255), rgb(160, 190, 255));
 		}
 
 		.wrapper.style1 {
-			background-image: linear-gradient(to bottom, rgb(233, 237, 255), rgb(191, 202, 252), rgb(167, 183, 255), rgb(138, 158, 248), rgb(94, 122, 248), rgb(87, 118, 255));
+			background-image: linear-gradient(to bottom, rgb(233, 237, 255), rgb(218, 228, 255), rgb(203, 219, 255), rgb(183, 205, 255), rgb(176, 199, 255), rgb(160, 190, 255));
 		}
 
 		.wrapper.style1-alt {
-			background-color: rgb(87, 118, 255);
+			background-color: rgb(160, 190, 255);
 		}
 
 		.wrapper.style2 {
-			background-image: linear-gradient(to bottom, rgb(233, 237, 255), rgb(191, 202, 252), rgb(167, 183, 255), rgb(138, 158, 248),rgb(94, 122, 248), rgb(87, 118, 255));
+			background-image: linear-gradient(to bottom, rgb(233, 237, 255), rgb(218, 228, 255), rgb(203, 219, 255), rgb(183, 205, 255),rgb(176, 199, 255), rgb(160, 190, 255));
 		}
 
 		.wrapper.style2-alt {
-			background-image: linear-gradient(to bottom, rgb(233, 237, 255), rgb(191, 202, 252), rgb(167, 183, 255), rgb(138, 158, 248),rgb(118, 143, 255), rgb(87, 118, 255));
+			background-image: linear-gradient(to bottom, rgb(233, 237, 255), rgb(218, 228, 255), rgb(203, 219, 255), rgb(183, 205, 255),rgb(176, 199, 255), rgb(160, 190, 255));
 		}
 
 		.wrapper.style3 {
-			background-image: linear-gradient(to bottom, rgb(233, 237, 255), rgb(191, 202, 252), rgb(167, 183, 255), rgb(138, 158, 248),rgb(94, 122, 248), rgb(87, 118, 255));
+			background-image: linear-gradient(to bottom, rgb(233, 237, 255), rgb(218, 228, 255), rgb(203, 219, 255), rgb(183, 205, 255),rgb(176, 199, 255), rgb(160, 190, 255));
 		}
 
 		.wrapper.style3-alt {
-			background-image: linear-gradient(to bottom, rgb(233, 237, 255), rgb(191, 202, 252), rgb(167, 183, 255), rgb(138, 158, 248),rgb(94, 122, 248), rgb(87, 118, 255));
+			background-image: linear-gradient(to bottom, rgb(233, 237, 255), rgb(218, 228, 255), rgb(203, 219, 255), rgb(183, 205, 255),rgb(176, 199, 255), rgb(160, 190, 255));
 		}
 
 		.wrapper.fullscreen {
@@ -3359,7 +3359,7 @@ input, select, textarea {
 
 	#sidebar {
 		padding: 2.5em 2.5em 0.5em 2.5em ;
-		background-image: linear-gradient(to bottom, rgb(233, 237, 255), rgb(191, 202, 252), rgb(167, 183, 255), rgb(138, 158, 248),rgb(94, 122, 248), rgb(87, 118, 255));
+		background-image: linear-gradient(to bottom, rgb(233, 237, 255), rgb(218, 228, 255), rgb(203, 219, 255), rgb(183, 205, 255),rgb(176, 199, 255), rgb(160, 190, 255));
 		cursor: default;
 		height: 100vh;
 		left: 0;
@@ -3708,7 +3708,7 @@ input, select, textarea {
 /* Intro */
 
 	#intro {
-		background-image: linear-gradient(to bottom, rgb(233, 237, 255), rgb(191, 202, 252), rgb(167, 183, 255), rgb(138, 158, 248),rgb(94, 122, 248), rgb(87, 118, 255));
+		background-image: linear-gradient(to bottom, rgb(233, 237, 255), rgb(218, 228, 255), rgb(203, 219, 255), rgb(183, 205, 255),rgb(176, 199, 255), rgb(160, 190, 255));
 	}
 
 	.flex-row {
